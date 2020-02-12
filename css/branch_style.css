@@ -640,7 +640,7 @@ body {
   content: '12'; }
 
 .set-speed #venus dl.infos dd:after {
-  content: ''; }
+  content: '11'; }
 
 .set-speed #earth dl.infos dd:after {
   content: '10'; }
