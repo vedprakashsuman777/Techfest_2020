@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>UDAYAN-2020</title>
   <link rel="stylesheet" href="css/branch_style.css">
   <link rel="stylesheet" href="css/loader.css">
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
@@ -19,14 +19,14 @@
     </div>
     <div id="data">
       <a class="sun active" title="sun" href="index.html">HOME</a>
-      <a class="mercury " title="mercury" href="#mercuryspeed">CSE & IT</a>
-      <a class="venus" title="venus" href="#venusspeed">ETC</a>
-      <a class="earth " title="earth" href="#earthspeed">EE &EEE</a>
-      <a class="mars" title="mars" href="#marsspeed">MECHNICAL</a>
-      <a class="jupiter" title="jupiter" href="#jupiterspeed">CIVIL</a>
-      <a class="saturn" title="saturn" href="#saturnspeed">DEVELOPERS</a>
-      <a class="uranus" title="uranus" href="#uranusspeed">SPONSERS</a>
-      <a class="neptune" title="neptune" href="#neptunespeed">ABOUT US</a>
+      <a id="myButton"class="mercury " title="mercury" href="#mercuryspeed">CSE & IT</a>
+      <a class="venus" title="venus" href="#venusspeed">ROBOTICS</a>
+      <a class="earth " title="earth" href="#earthspeed">ETC</a>
+      <a class="mars" title="mars" href="#marsspeed">EE & EEE</a>
+      <a class="jupiter" title="jupiter" href="#jupiterspeed">MECHNICAL</a>
+      <a class="saturn" title="saturn" href="#saturnspeed">CIVIL</a>
+      <a class="uranus" title="uranus" href="#uranusspeed">DEVELOPERS</a>
+      <a class="neptune" title="neptune" href="#neptunespeed">COMMITEE</a>
     </div>
     <div id="universe" class="scale-stretched">
       <div id="galaxy">
@@ -35,7 +35,20 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt><a href="cse&it_events.html"> CSE & IT </dt>
+                  <dt><a href="cse&it_events.html" > CSE & IT </dt>
+                      <script type="text/javascript">
+                        function sleep(milliseconds) {
+                          const date = Date.now();
+                          let currentDate = null;
+                          do {
+                            currentDate = Date.now();
+                          } while (currentDate - date < milliseconds);
+                        }
+                                  document.getElementById("myButton").onclick = function () {
+                                    sleep(2000);
+                                      location.href = "cse&it_events.html";
+                                  };
+                                  </script>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -45,7 +58,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt><a href="etc_events.html"> ETC </a></dt>
+                  <dt><a href="robotics_events.html"> ROBOTICS </a></dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -60,7 +73,7 @@
               </div>
               <div class="planet">
                 <dl class="infos">
-                  <dt><a href="ee&eee_events.html"> EE<br>&<br>EEE </a></dt>
+                  <dt><a href="etc_events.html"> ETC </a></dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -70,7 +83,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt><a href="mech_events.html"> MECHNICAL </a></dt>
+                  <dt><a href="ee&eee_events.html"> EE & EEE </a></dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -80,7 +93,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt><a href="civil_events.html"> CIVIL </a></dt>
+                  <dt><a href="mech_events.html"> MECHNICAL </a></dt>
                   <dd><span></span></dd>
                 </dl>
               </div>
@@ -91,7 +104,7 @@
               <div class="planet">
                 <div class="ring"></div>
                 <dl class="infos">
-                  <dt><a href="coming_soon.html"> Developers </a></dt>
+                  <dt><a href="civil_events.html"> CIVIL </a></dt>
                   
                 </dl>
               </div>
@@ -101,7 +114,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt><a href="coming_soon.html"> SPONSERS </a></dt>
+                  <dt><a href="coming_soon.html"> DEVELOPERS </a></dt>
                   
                 </dl>
               </div>
@@ -111,7 +124,7 @@
             <div class="pos">
               <div class="planet">
                 <dl class="infos">
-                  <dt><a href="coming_soon.html"> ABOUT US </a></dt>
+                  <dt><a href="coming_soon.html"> COMMITEE </a></dt>
                   
                 </dl>
               </div>
